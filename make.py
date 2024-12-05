@@ -20,7 +20,7 @@ if not os.path.exists(inputPath):
 
     aocCookiePath = "../../.aoccookie"
     if not os.path.exists(aocCookiePath):
-        exit(f'Advent of code cookie file missing "{aocCookieFile}"')
+        exit(f'Advent of code cookie file missing "{aocCookiePath}"')
 
     with open(aocCookiePath, 'r') as cookieFile:
         cookie = cookieFile.read().strip()
